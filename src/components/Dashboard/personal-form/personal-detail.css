@@ -1,0 +1,36 @@
+.form-box {
+    padding: 50px;
+    margin: 50px 0;
+    background: #f8f6f6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+.personal-form-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.personal-form-btn button {
+    margin: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: rgb(81, 0, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .personal-form-btn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .personal-form-btn button {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
